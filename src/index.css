@@ -58,7 +58,8 @@ body{
   justify-content: center;
   flex-direction: column;
   /* background: turquoise; */
-  background-image: url('https://imgs.search.brave.com/qOWFdssCG8SksjXRlOzgC7sJW-pO9sx-dLjOj028r4o/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly9oZHdh/bGxwYXBlcmltLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAx/Ny8wOC8yMi8yNzEx/NjItUmlja19hbmRf/TW9ydHktc3BhY2Uu/anBn');
+  background-image: url('https://imgs.search.brave.com/fWXhy-LsM-uhEAFT-IzUkBNoLvqWbMWgf1J8ejgl50c/rs:fit:905:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5r/N0J3NHo4bUZORV9E/ZEFoWUgwSVhRSGFE/NCZwaWQ9QXBp');
+  background-size: cover;
   width: 70vw;
   padding: 10px;
   border-radius: 5px;
@@ -73,12 +74,14 @@ body{
   font-size: 30px;
   font-weight: 600;
   color: #FFFF;
+  text-shadow: 2px 4px 6px #FFFF;
 }
 
 .location-box h2{
   text-align: center;
   font-family: 'Mansalva', cursive;
-  color: #FFFF
+  color: #FFFF;
+  text-shadow: 2px 4px 6px #FFFF;
 }
 
 .location-box ul{
@@ -88,7 +91,7 @@ body{
   margin-left: -30px;
   flex-wrap: wrap;
   color: #FFFF;
-  
+  text-shadow: 2px 4px 6px #FFFF;
 }
 
 .location-box ul li{
