@@ -59,6 +59,7 @@ body{
   flex-direction: column;
   /* background: turquoise; */
   background-image: url('https://imgs.search.brave.com/fWXhy-LsM-uhEAFT-IzUkBNoLvqWbMWgf1J8ejgl50c/rs:fit:905:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5r/N0J3NHo4bUZORV9E/ZEFoWUgwSVhRSGFE/NCZwaWQ9QXBp');
+  opacity: .8;
   background-size: cover;
   width: 70vw;
   padding: 10px;
@@ -149,6 +150,7 @@ body{
   background-image: url('https://imgs.search.brave.com/9SSH3yQcJcdP9L6q3kwtSlWF5bNQCv2yo_v67uAJm3I/rs:fit:800:1200:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMud2FsbHBhcGVy/c2Rlbi5jb20vaW1h/Z2UvZG93bmxvYWQv/cmljay1hbmQtbW9y/dHktc3BhY2VfYTJW/bGJHYVVtWnFhcmFX/a3BKUnRaV1d0Wm1k/dFpRLmpwZw');
   background-size: cover;
   justify-content: space-evenly;
+  opacity: .8;
   margin-bottom: 20px;
   border-radius: 15px;
   border: 1px solid #F9F909;
