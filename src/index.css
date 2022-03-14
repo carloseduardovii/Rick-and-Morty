@@ -36,8 +36,6 @@ body{
   color: #FFFF;
   text-shadow: 2px 4px 8px #FFFF;
   font-family: 'Mansalva', cursive;
-  /* font-family: 'Covered By Your Grace', cursive; */
-  
 
 }
 /*---------------LocationInfo-------------------*/
@@ -58,8 +56,8 @@ body{
   justify-content: center;
   flex-direction: column;
   /* background: turquoise; */
-  background-image: url('https://imgs.search.brave.com/fWXhy-LsM-uhEAFT-IzUkBNoLvqWbMWgf1J8ejgl50c/rs:fit:905:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5r/N0J3NHo4bUZORV9E/ZEFoWUgwSVhRSGFE/NCZwaWQ9QXBp');
-  opacity: .8;
+  background-image: url('https://imgs.search.brave.com/6bMpZo2qGMBmZTtOBtSVQ0d1HeLpW8sZBtzGx7mEBu0/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzaGRub3cu/Y29tL2ltYWdlcy90/di1zaG93cy9hbmlt/YXRpb24vcmljay1h/bmQtbW9ydHkvcmlj/ay1hbmQtbW9ydHkt/YmFja2dyb3VuZC0y/Ni5qcGc');
+  background-position: 50%;
   background-size: cover;
   width: 70vw;
   padding: 10px;
@@ -129,16 +127,13 @@ body{
 
 /*---------------ResidentList-------------------*/
 
-.resident-info{
+.resident-list{
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 20px;
   padding: 10px;
   margin: 30px 30px;
- 
-
-
 }
 
 /*---------------ResidentInfo-------------------*/
@@ -150,7 +145,6 @@ body{
   background-image: url('https://imgs.search.brave.com/9SSH3yQcJcdP9L6q3kwtSlWF5bNQCv2yo_v67uAJm3I/rs:fit:800:1200:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMud2FsbHBhcGVy/c2Rlbi5jb20vaW1h/Z2UvZG93bmxvYWQv/cmljay1hbmQtbW9y/dHktc3BhY2VfYTJW/bGJHYVVtWnFhcmFX/a3BKUnRaV1d0Wm1k/dFpRLmpwZw');
   background-size: cover;
   justify-content: space-evenly;
-  opacity: .8;
   margin-bottom: 20px;
   border-radius: 15px;
   border: 1px solid #F9F909;
@@ -166,6 +160,7 @@ body{
 .card img{
   border-radius: 15px;
   border: 1px solid blue;
+  box-shadow: 1px 1px 5px 3px teal;
 }
 
 .card-info{
@@ -189,4 +184,41 @@ body{
   font-size: 25px;
   margin: 0;
   color: #FFFF;
+}
+
+
+/*-----------------FOOTER-------------------*/
+footer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+  background-image: url('https://imgs.search.brave.com/N9WecJtYRVIT3tQtyFJ7tU1CIslfFjOVT3yt3y4mgcc/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDcyMjc5/MzUucG5n');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  /* background-color: black; */
+
+}
+
+footer h6{
+  text-align: center;
+  font-family: 'Mansalva', cursive;
+  color: #F9F909;
+  text-shadow: 1px 3px 6px #F9F909;
+}
+
+footer p{
+  text-align: center;
+  font-family: 'Mansalva', cursive;
+  color: #FFFF;
+  text-shadow: 1px 3px 6px #F9F909;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+footer p b{
+  color: #F9F909;
+  font-size: 25px;
 }

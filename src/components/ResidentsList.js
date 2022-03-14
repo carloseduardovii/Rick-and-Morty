@@ -3,7 +3,8 @@ import ResidentInfo from './ResidentInfo';
 
 const ResidentsList = ({residents}) => {
   return (
-    <div className='resident-info'>
+
+    <div className='resident-list'>
       {
         residents?.map((resident) =>(
           <ResidentInfo
@@ -12,6 +13,7 @@ const ResidentsList = ({residents}) => {
           />
         ))
       }
+
     </div>
   )
 }

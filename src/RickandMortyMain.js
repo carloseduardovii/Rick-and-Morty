@@ -27,7 +27,12 @@ const RickandMortyMain = () => {
         <LocationInfo />
         {/* <h2>{character?.name}</h2> */}
         <ResidentsList residents={character.residents}/>
-        
+        <footer>
+          <h6>Copyright ©2022 </h6>
+          <p>Rick and Morty is created by Justin Roiland and Dan Harmon for Adult Swim. The data and images are used without claim of ownership and belong to their respective <br />
+          This API is open source and uses a BSD license.</p>
+          <p><b>❮'by Ariel Fuentes García & Carlos Eduardo Rodriguez 2022'❯</b></p>
+        </footer>
     </div>
   )
 }

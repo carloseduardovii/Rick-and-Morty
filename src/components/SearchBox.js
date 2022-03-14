@@ -18,6 +18,7 @@ const SearchBox = ({ setCharacter }) => {
     <div className="search-box">
       <input
         type="text"
+        placeholder="Enter number of universe from 1 to 11"
         onChange={(e) => setSearch(e.target.value)}
         value={search}
       />
