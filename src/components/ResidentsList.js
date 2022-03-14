@@ -1,8 +1,18 @@
-import React from 'react'
+import React from 'react';
+import ResidentInfo from './ResidentInfo';
 
-const ResidentsList = () => {
+const ResidentsList = ({residents}) => {
   return (
-    <div>ResidentsList</div>
+    <div className='resident-info'>
+      {
+        residents?.map((resident) =>(
+          <ResidentInfo
+            residentUrl={resident}
+            key={resident.id}
+          />
+        ))
+      }
+    </div>
   )
 }
 

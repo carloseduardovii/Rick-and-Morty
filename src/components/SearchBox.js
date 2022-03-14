@@ -1,16 +1,29 @@
-import React from 'react'
+import React from "react";
+import { useState } from "react";
+import axios from "axios";
 
-const SearchBox = () => {
+
+const SearchBox = ({ setCharacter }) => {
+  const [search, setSearch] = useState("");
+
+  const searchType = () => {
+    // Hacemos la petición con el id que haya
+    // colocado el usuario en el input
+    axios
+      .get(`https://rickandmortyapi.com/api/location/${search}/`)
+      .then((res) => setCharacter(res.data));
+  };
+
   return (
-    <div>
-      <form action="">
-        <div className="input-group mb-3">
-            <input type="text" className="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2"></input>
-            <button className="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
-        </div>
-      </form>
+    <div className="search-box">
+      <input
+        type="text"
+        onChange={(e) => setSearch(e.target.value)}
+        value={search}
+      />
+      <button onClick={searchType}><b>Search</b></button>
     </div>
-  )
-}
+  );
+};
 
 export default SearchBox;

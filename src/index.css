@@ -1,16 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&family=Waiting+for+the+Sunrise&display=swap');
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 
-.content-main{
-  align-items: center;
+/*---------------RickandMortyMain-HEAD-------------------*/
+
+body{
+  background-color: black;
+}
+
+.container-head{
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  width: 100vw;
+  flex-direction: column;
+ 
 }
 
-.input-group{
+.container-head img{
+  width: 100vw;
+  margin-top: -25%;
+
+}
+
+
+.title-main{
+  display: flex;
+  justify-content: center;
+  color: #FFFF;
+  text-shadow: 2px 4px 8px #FFFF;
+  font-family: 'Mansalva', cursive;
+  /* font-family: 'Covered By Your Grace', cursive; */
+  
+
+}
+/*---------------LocationInfo-------------------*/
+
+.location{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin-bottom: 10px;
+}
+
+.location-box{
+  padding: 10px;
+}
+
+.location-info{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* background: turquoise; */
+  background-image: url('https://imgs.search.brave.com/qOWFdssCG8SksjXRlOzgC7sJW-pO9sx-dLjOj028r4o/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly9oZHdh/bGxwYXBlcmltLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAx/Ny8wOC8yMi8yNzEx/NjItUmlja19hbmRf/TW9ydHktc3BhY2Uu/anBn');
+  width: 70vw;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #F9F909;
+  box-shadow: 1px 2px 3px #F9F909;
+ 
+}
+
+.location-box h4{
+  text-align: center;
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size: 30px;
+  font-weight: 600;
+  color: #FFFF;
+}
+
+.location-box h2{
+  text-align: center;
+  font-family: 'Mansalva', cursive;
+  color: #FFFF
+}
+
+.location-box ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-left: -30px;
+  flex-wrap: wrap;
+  color: #FFFF;
+  
+}
+
+.location-box ul li{
+  list-style: none;
+  padding: 10px;
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size: 25px;
+}
+
+/*---------------SearchBox-------------------*/
+
+.search-box{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  
+}
+
+.search-box input{
   width: 60vw;
+  border: 1px solid black;
+  border: 1px solid teal;
+  box-shadow: 1px 3px 6px teal;
+}
+
+.search-box button{
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size: 30px;
+  font-weight: 400;
+  width: 90px;
+  border: 1px solid teal;
+  box-shadow: 1px 3px 6px teal;
+}
+
+/*---------------ResidentList-------------------*/
+
+.resident-info{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding: 10px;
+  margin: 30px 30px;
+ 
+
+
+}
+
+/*---------------ResidentInfo-------------------*/
+
+.card{
+  display: flex;
+  padding: 5px;
+  /* background-color: #F9F909; */
+  background-image: url('https://imgs.search.brave.com/9SSH3yQcJcdP9L6q3kwtSlWF5bNQCv2yo_v67uAJm3I/rs:fit:800:1200:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMud2FsbHBhcGVy/c2Rlbi5jb20vaW1h/Z2UvZG93bmxvYWQv/cmljay1hbmQtbW9y/dHktc3BhY2VfYTJW/bGJHYVVtWnFhcmFX/a3BKUnRaV1d0Wm1k/dFpRLmpwZw');
+  background-size: cover;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  border: 1px solid #F9F909;
+  box-shadow: 1px 3px 6px #F9F909;
+}
+
+.card h4{
+  text-align: center;
+  font-family: 'Covered By Your Grace', cursive;
+  color: #F9F909;
+}
+
+.card img{
+  border-radius: 15px;
+  border: 1px solid blue;
+}
+
+.card-info{
+  padding: 5px;
+  margin-left: 10px;
+  font-family: 'Mansalva', cursive;
+  font-size: 20px;
+
+}
+
+
+
+.card-info b{
+  color: #F9F909;
+  text-align: right;
+  margin-left: 110px;
+}
+
+.card-info p{
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  color: #FFFF;
 }
